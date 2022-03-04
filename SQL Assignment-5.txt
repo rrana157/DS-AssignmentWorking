@@ -1,0 +1,31 @@
+/*
+Question-1
+*/
+
+SELECT
+* 
+FROM
+Employees
+WHERE
+first_name NOT IN('Vipul','Satish')
+
+
+/*
+Question-2
+*/
+SELECT
+*
+FROM
+Employees
+WHERE
+first_name LIKE '_____h'
+
+
+/*
+Question-3
+*/
+SELECT
+EmailAddress
+FROM 
+AdventureWorks2019.Person.EmailAddress
+WHERE EmailAddress LIKE '%_@_%_.__%'
